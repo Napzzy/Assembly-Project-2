@@ -1,0 +1,10 @@
+d R 5
+d S 2
+d T 3
+d V 12
+d W 10
+
+g V
+a W
+p R
+s 

@@ -1,0 +1,51 @@
+; Multi
+
+D x 5
+D y 3
+D i 1
+D c 0
+D r 0
+
+StartLoop:
+
+G x
+A r
+P r
+
+G c
+A i
+P c
+
+C c y
+J StartLoop
+
+J EndLoop
+
+EndLoop:
+
+stop
+
+168421
+000 00101
+000 00011
+000 00001
+000 10001
+000 01110
+
+Start:
+
+001 00101
+011 01110
+010 01110
+
+001 10001
+011 00001
+010 10001
+
+101 10001 00011
+110 Start
+
+110 EndLoop
+
+EndLoop:
+000
